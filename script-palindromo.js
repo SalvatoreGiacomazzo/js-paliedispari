@@ -10,7 +10,7 @@ TO DO LIST
 */
 
 //Creazione della funzione
-
+/*
 function isPalindrome(word) {
 return word === word.split('').reverse().join('');   //Split frammenta la parola in un array i caratteri, reverse inverte gli elementi dell'array e join li riunisce per ricreare una parola.
 
@@ -19,11 +19,12 @@ return word === word.split('').reverse().join('');   //Split frammenta la parola
 const palindromeText = document.getElementById('palindrome')
 
 //Prompt per chiedere la parola all'utente
-const userWord = prompt("Inserisci una parola:");
+// const userWord = prompt("Inserisci una parola:"); !!Commento per disattivare prompt!!
 
 // Controllo della parola e stampa del risultato.
 if (isPalindrome(userWord)) {
-    palindromeText.innerHTML = `La parola '${userWord}' è palindroma.`;
+    palindromeText.innerHTML = `La parola '${userWord}' è palindroma.`; 
 } else {
    palindromeText.innerHTML = `La parola '${userWord}' non è palindroma.`;
 }
+*/
