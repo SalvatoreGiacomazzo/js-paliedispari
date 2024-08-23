@@ -19,7 +19,7 @@ return word === word.split('').reverse().join('');   //Split frammenta la parola
 const palindromeText = document.getElementById('palindrome')
 
 //Prompt per chiedere la parola all'utente
-// const userWord = prompt("Inserisci una parola:"); !!Commento per disattivare prompt!!
+//const userWord = prompt("Inserisci una parola:");
 
 // Controllo della parola e stampa del risultato.
 if (isPalindrome(userWord)) {
@@ -27,4 +27,4 @@ if (isPalindrome(userWord)) {
 } else {
    palindromeText.innerHTML = `La parola '${userWord}' non è palindroma.`;
 }
-*/
+*/ 
